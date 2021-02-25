@@ -1,9 +1,9 @@
 # Docker build 정보
-- 테스트
+- 테스트   
 docker build -t goweb .
 docker run -it -p 9999:80 --name goweb goweb   
 
-- 운영
+- 운영   
 docker build -t goweb .
 docker run -d -p 9999:80 --name goweb goweb       
 
