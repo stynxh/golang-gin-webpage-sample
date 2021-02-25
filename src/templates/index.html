@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">    
+  <title>stynxh Portfolio</title>
+  <!-- 부트스트랩 CSS -->    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+  </style>    
+  <!-- Custom styles for this template -->
+  <link href="css/default.css" rel="stylesheet">
+  <link href="css/my.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">      
+      <a class="navbar-brand logo" href="/">STYNXH</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/project">Project</a>
+          </li>
+        </ul>      
+      </div>      
+    </div>
+  </nav>
+</header>
+<main>  
+  <div class="py-5 text-center set-bg">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="color-white">I am a programmer</h1>
+        <p class="color-white">stynxh의 포트폴리오 페이지입니다</p>
+        <button type="button" class="btn btn-outline-dark main-margin" onclick="location.href='#trailer'">More</button>       
+      </div>
+    </div>
+  </div>
+   
+
+  <div class="container marketing">
+
+    <div class="row my-padding" id="trailer">
+      <div class="col-lg-6">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>About Me</h2>
+        <p>stynxh에 대해 소개합니다.</p>
+        <p><a class="btn btn-secondary" href="/about" role="button">Click &raquo;</a></p>
+      </div><!-- /.col-lg-6 -->
+      <div class="col-lg-6">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Project</h2>
+        <p>수행했던 프로젝트에 대해 소개합니다.</p>
+        <p><a class="btn btn-secondary" href="/project" role="button">Click &raquo;</a></p>
+      </div><!-- /.col-lg-6 -->      
+    </div><!-- /.row -->
+
+    <hr class="featurette-divider">
+    
+    <div class="row featurette" id="about">      
+      <div class="col-md-7">        
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image mx-auto" src="images/coder.jpg" width="400" height="400">
+      </div>
+      <div class="col-md-5">
+        <h2 class="featurette-heading">About Me</h2>
+        <p class="lead">
+        - Programmer <br>
+        - Hacker <br>
+        - Man <br>
+        - ... <br>
+        <button type="button" class="btn btn-secondary main-margin" onclick="location.href='/about'">더보기</button>
+        </p>
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">  
+    
+    <div class="row featurette" id="project">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">My Project <br><span class="text-muted">It's very interesting.</span></h2>
+        <p class="lead">
+        - inform notifier <br>
+        - data scraper <br>
+        - ... <br>
+        <button type="button" class="btn btn-secondary main-margin" onclick="location.href='/project'">더보기</button>
+        </p>
+      </div>
+      <div class="col-md-5">       
+        <img class="bd-placeholder-img bd-placeholder-img-lg" src="images/board.jpg" width="400" height="400">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021 MyCompany Inc. &middot; stynxh</p>
+  </footer>
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+</script>
+      
+  </body>
+</html>

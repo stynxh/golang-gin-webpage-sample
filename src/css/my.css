@@ -1,0 +1,43 @@
+@font-face{
+    font-family: abster;
+    src:url(../font/abster-webfont.woff) format('woff');
+}
+
+.logo {
+    text-decoration: none;
+    font-family: abster;
+}
+
+.set-bg {
+    background-image: url('../images/coding.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;     
+}
+
+.color-white {
+    color: white;
+}
+
+.main-margin {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.my-padding {
+    padding-top: 80px;
+}
+
+.marketing .col-lg-6 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+  /* rtl:begin:ignore */
+.marketing .col-lg-6 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
